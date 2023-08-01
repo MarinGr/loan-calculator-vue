@@ -1,19 +1,9 @@
-# loan-calculator-vue
+# Loan Calculator
 
-## Project setup
-```
-npm install
-```
+This Vue app allows users to get information about their total and monthly loan payments based on provided amount and terms of loan.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Live demo
 
-### Compiles and minifies for production
-```
-npm run build
-```
+You can check live demo project by clicking this link https://maringr.github.io/loan-calculator-vue/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Home page](/src/assets/images/home_page.png)

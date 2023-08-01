@@ -1,0 +1,102 @@
+:root {
+  --body-bg-color: linear-gradient(
+    109.6deg,
+    rgb(2, 155, 197) 11.3%,
+    rgb(5, 48, 221) 69.9%
+  );
+  --app-bg-color: rgba(255, 255, 255, 0.23);
+  --primary-color: rgb(32, 61, 179);
+  --text-color-primary: rgb(255, 255, 255);
+  --border-color: rgba(255, 255, 255, 0.3);
+  --principal-color: rgb(99, 213, 241);
+  --interest-color: rgb(167, 120, 243);
+  --error-color: rgb(185, 6, 66);
+  --error-bg-color: rgba(250, 176, 201, 0.7);
+  --input-bg-color: rgb(244, 245, 248, 0.2);
+  --input-bg-color-hover: rgb(244, 245, 248, 0.4);
+  --input-bg-color-focus: rgb(244, 245, 248, 0.6);
+  --shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: var(--body-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+select {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  background-color: var(--input-bg-color);
+  color: var(--primary-color);
+}
+
+input:hover,
+select:hover {
+  background-color: var(--input-bg-color-hover);
+}
+
+input:focus,
+select:focus {
+  background-color: var(--input-bg-color-focus);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  margin-right: 15px;
+  width: 200px;
+  height: 4px;
+  border-radius: 5px;
+  background: var(--border-color);
+  background-image: linear-gradient(var(--primary-color), var(--primary-color));
+  background-repeat: no-repeat;
+  transition: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 rgb(85, 85, 85);
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
