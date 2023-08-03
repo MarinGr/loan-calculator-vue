@@ -50,9 +50,7 @@ const chartData = computed(() => ({
   datasets: [
     {
       data: data.value,
-      borderWidth: 3,
-      borderColor: "rgba(255, 255, 255, 0.3)",
-      backgroundColor: ["rgb(99, 213, 241)", "rgb(167, 120, 243)"],
+      backgroundColor: ["#026bd4", "#9a76ee"],
     },
   ],
 }));

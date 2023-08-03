@@ -180,16 +180,16 @@ watch(amount, (newVal) => {
 
 .monthly-payment {
   padding: 40px;
-  border-radius: 8px;
+  border-top: 2px solid var(--border-color);
   text-align: center;
-  background-color: var(--primary-color);
-  box-shadow: var(--shadow);
+  font-weight: 600;
 }
 .monthly-payment__desc {
   margin-bottom: 16px;
+  font-size: 20px;
 }
 .monthly-payment__amount {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 32px;
+  color: var(--primary-color);
 }
 </style>

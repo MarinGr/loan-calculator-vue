@@ -22,19 +22,11 @@ const errorMessage = computed(() => store.state.errorMessage);
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: var(--text-color-primary);
-  background: var(--white);
-  border-radius: 20px;
-  padding: 32px;
   background: var(--app-bg-color);
+  color: var(--text-color-primary);
+  padding: 40px;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .app-title {
