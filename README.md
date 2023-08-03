@@ -1,6 +1,10 @@
 # Loan Calculator
 
-This Vue app allows users to get information about their total and monthly loan payments based on provided amount and terms of loan.
+Loan calculator with real-time results update built with Vue and Vuex. Includes additional dependency vue-chart-3.
+
+## Stack
+
+Vue, Vuex
 
 ## Live demo
 
